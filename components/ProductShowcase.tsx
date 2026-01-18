@@ -32,17 +32,17 @@ export default function ProductShowcase() {
     <section id="producten" className="bg-white py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold text-primary md:text-4xl">
+        <div className="mb-6 text-center">
+          <h2 className="text-2xl font-semibold text-primary md:text-3xl">
             Onze Producten
           </h2>
-          <p className="mt-4 text-lg text-gray-700">
+          <p className="mt-2 text-base text-gray-700">
             Vers en lokaal, direct uit de buurt
           </p>
         </div>
 
         {/* Filter Buttons */}
-        <div className="mb-12 flex flex-wrap justify-center gap-3">
+        <div className="mb-8 flex flex-wrap justify-center gap-3">
           {categories.map((category) => (
             <button
               key={category}

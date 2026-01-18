@@ -23,8 +23,8 @@ export default function Reviews() {
     <section className="bg-background-light py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold text-primary md:text-4xl">
+        <div className="mb-8 text-center">
+          <h2 className="text-2xl font-semibold text-primary md:text-3xl">
             Wat Onze Klanten Zeggen
           </h2>
         </div>
